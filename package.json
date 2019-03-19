@@ -2,12 +2,30 @@
   "name": "gsx2json",
   "version": "1.0.0",
   "description": "Google Spreadsheet to JSON API app",
+  "engines": {
+    "node": "10.x"
+  },
   "main": "app.js",
-  "author": "Nick Moreton",
+  "scripts": {
+    "start": "node app.js"
+  },
   "dependencies": {
     "body-parser": "^1.x.x",
     "express": "^4.x.x",
     "request": "^2.69.0"
   },
-  "license": "ISC"
+  "devDependencies": {
+    "request": "^2.81.0",
+    "tape": "^4.7.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/heroku/node-js-getting-started"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ],
+  "license": "MIT"
 }
